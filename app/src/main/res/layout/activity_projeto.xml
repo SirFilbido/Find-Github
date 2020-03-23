@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bt_salvar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/conainterAvatarInfoBasico"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/containerImagem"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iv_avatar"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:srcCompat="@drawable/jetbrains" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/containerInfoBasico"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/containerImagem"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textViewDono"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dono"
+                            android:textColor="@color/primaryColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tv_dono"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="JetBrains"
+                            android:textColor="@color/primaryColor"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toEndOf="@+id/textViewDono"
+                            app:layout_constraintTop_toTopOf="@+id/textViewDono" />
+
+                        <TextView
+                            android:id="@+id/textViewProjeto"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/projeto"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewDono" />
+
+                        <TextView
+                            android:id="@+id/tv_nome_projeto"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="kotlin"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toEndOf="@+id/textViewProjeto"
+                            app:layout_constraintTop_toTopOf="@+id/textViewProjeto" />
+
+                        <TextView
+                            android:id="@+id/textViewDescricao"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/descricao"
+                            android:textColor="@color/primaryColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="@+id/textViewProjeto"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewProjeto" />
+
+                        <TextView
+                            android:id="@+id/tv_descricao"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:text="@string/nInformado"
+                            android:textColor="@color/primaryColor"
+                            android:textSize="18sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.49"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewDescricao" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/containerContInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        android:id="@+id/textViewDhCriacao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/dhCriacao"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_dh_cricacao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="20/02/2020"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/textViewDhCriacao"
+                        app:layout_constraintTop_toTopOf="@+id/textViewDhCriacao" />
+
+                    <TextView
+                        android:id="@+id/textViewDhUltAtualizacao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/dhUltAtualizacao"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewDhCriacao"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewDhCriacao" />
+
+                    <TextView
+                        android:id="@+id/tv_dh_ult_atualizacao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="20/02/2020"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/textViewDhUltAtualizacao"
+                        app:layout_constraintTop_toTopOf="@+id/textViewDhUltAtualizacao" />
+
+                    <TextView
+                        android:id="@+id/textViewLinguagem"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/linguagem"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewDhUltAtualizacao"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewDhUltAtualizacao" />
+
+                    <TextView
+                        android:id="@+id/tv_linguagem"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/textViewLinguagem"
+                        app:layout_constraintTop_toTopOf="@+id/textViewLinguagem"
+                        tools:text="Kotlin" />
+
+                    <TextView
+                        android:id="@+id/textViewBranch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/principalBranch"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewLinguagem"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewLinguagem" />
+
+                    <TextView
+                        android:id="@+id/tv_branch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/textViewBranch"
+                        app:layout_constraintTop_toTopOf="@+id/textViewBranch"
+                        tools:text="Master" />
+
+                    <TextView
+                        android:id="@+id/textViewFork"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/totalForks"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewBranch"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewBranch" />
+
+                    <TextView
+                        android:id="@+id/tv_fork"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/textViewFork"
+                        app:layout_constraintTop_toTopOf="@+id/textViewFork"
+                        tools:text="10" />
+
+                    <TextView
+                        android:id="@+id/textViewGit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/git"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewFork"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewFork" />
+
+                    <TextView
+                        android:id="@+id/tv_git"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:autoLink="web"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/textViewGit"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewGit"
+                        tools:text="https://github.com/JetBrains/kotlin" />
+
+                    <TextView
+                        android:id="@+id/textViewMais"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/saberMais"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/textViewGit"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_git" />
+
+                    <TextView
+                        android:id="@+id/tv_mais"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:autoLink="web"
+                        android:text="@string/nInformado"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textViewMais"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewMais"
+                        tools:text="https://github.com/JetBrains/kotlin" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/bt_salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/salvar"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

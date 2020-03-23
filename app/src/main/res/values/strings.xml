@@ -1,0 +1,42 @@
+<resources>
+    <!--Geral-->
+    <string name="app_name">Find Git</string>
+    <string name="procurar">Procurar</string>
+    <string name="exTermo">ex: Kotlin</string>
+    <string name="listagem">Listagem salva</string>
+    <string name="nenhumProjeto">Nenhum projeto salvo</string>
+    <string name="projetoNEncontrado">Nenhum projeto \n buscado/encontrado</string>
+    <string name="git">Página GitHub</string>
+    <string name="salvar">Salvar</string>
+    <string name="nInformado">Não informado</string>
+
+    <!--Projeto-->
+    <string name="dhCriacao">Data de criação</string>
+    <string name="dhUltAtualizacao">Última atualização</string>
+    <string name="nenhumRepo">Nenhum repositório salvo</string>
+    <string name="projeto">Projeto</string>
+    <string name="descricao">Descricão</string>
+    <string name="saberMais">Saber mais</string>
+    <string name="linguagem">Linguagem</string>
+    <string name="principalBranch">Principal branch</string>
+    <string name="totalForks">Total de forks</string>
+    <string name="dono">Dono</string>
+    <string name="pagina">Página</string>
+
+    <!--Usuario-->
+    <string name="nome">Nome</string>
+    <string name="tipo">Tipo</string>
+
+    <string name="buscaProjeto">Buscar projeto</string>
+    <string name="campoBuscaV">O campo de busca esta vazio</string>
+    <string name="erroLista">Ocorreu um erro ao buscar os projetos</string>
+    <string name="projetoSalvo">Projeto salvo com sucesso</string>
+
+    <!-- Testes -->
+    <string name="listaNomes">"Darth Vader","Anakin Skywalker","Obi-Wan Kenobi","Luke Skywalker","Princesa Leia","Mestre Yoda","Imperador Palpatine","Darth Sidious","C-3PO","R2-D2","Han Solo","Chewbacca","Padmé Amidala","Conde Dookan","Lando Calrissian","Mace Windu","Qui-Gon Jinn","Cânon","Rey","Finn","Poe Dameron","Jyn Erso","Cassian Andor","Vice-Rei Gunray","Cad Bane","Onaconda Farr","Chanceler Valorum","Shmi Skywalker","Bail Organa","Ahsoka Tano","Jabba o Hutt","Deej Warrick","Shaak Ti","Luminara Unduli","Ezra Bridger","Kanan Jarrus","Hera Syndulla","Garazeb "Zeb" Orrelios","Sabine Wren","Agente Kallus","O Inquisidor","Grand Moff Tarkin","Darth Maul","Mon Mothma","Grande Almirante Thrawn"</string>
+    <string name="listaLugares">"Almania","Corellia","Yavin 8","Ossus","Sacorria","Aridus","Kessel","Dellalt","Bestine IV","Lwhekk","Mrlsst","Yavin 4","Firrerre","Kalarba","Bilbringi","Ord Mantell","Coruscant","Nal Hutta and Nar Shaddaa","Telti","Rodia","Kashyyyk","Arkania","Eriadu","Ithor","Fondor","Endor","M'haeli","N'zoth","Nkllon","Hoth","Bespin","Nim Drovis","Myrkr","Balmorra","Tatooine","Kuat","Da Soocha V","Bonadan","Alderaan","Agamar","J't'p'tan","Ammuud","Chandrila","Atzerri","Dathomir","Garos IV","Khomm","Korriban","Borleias","Ando"</string>
+    <string name="iconeDeInformacao">Icone de informação</string>
+    <string name="loremIpsum">"Ahsoka","Altyr","Amidala","Arvel","Bothawui","Dantooine","Dooku","Dormé","Fel","Fey'lya","Glymphid","Grodin","Hutt","Ikrit","Ithorian","Jan","Juvex","Kenobi","Leia","Lepi","Lucas","Lytton","Mara","Miraluka","Mon","Myneyrsh","Neimoidia","Nomi","Ors","Palpatine","Poggle","Polis","Qu","Rishii","Sabé","Saurin","Sebulba","Secura","Sern","Shaak","Skywalker","Solo","Stass","Sullustan","Sy","T'landa","Tenel","Tiin","Timoliini","Twi'lek","Tython","Valorum","Vodran","Vor","Wicket","Yevetha","Yoda","Zhell","aayla","ackbar","adi","airen","aka","allana","allie","altyr","amet","amidala","annoo","antemeridian","anthos","antilles","artaru","arvel","atrivis","aurra","axmis","b'omarr","baba","bail","bajic","balosar","barabel","bardan","ben","beru","besalisk","bib","biggs","billaba","binks","bormea","bothan","brak","breha","bren","caamasi","cade","carlist","chagrian","chiss","chommell","cody","corran","coruscant","cracken","daala","darklighter","darpa","darth","dat","depa","di","disra","doldur","dolor","dooku","dor","dormé","drach'nam","draethos","dressellian","drovian","dunwell","duro","ebe","elrood","emtrey","ev-9d9","farlax","fett","firrerreo","fosh","gado","gamorr","gank","garindan","gavyn","givin","gordin","gorog","gossam","gran","grievous","grodin","gungan","hapan","himoran","hobbie","hoth","hssis","hutt","ig-88","ima-gun","ipsum","isard","jacen","jade","jaina","jamillia","jango","jar","jarael","jerjerrod","jettster","jin'ha","juvex","ka","kael","kamino","kasan","kathol","kel","keyan","ki-adi-mundi","kir","klatooinian","klivian","kobok","kohl","koon","kowakian","kyp","lah","lannik","lars","latter","leia","lepi","logray","lorth","lyn","mace","mandell","maris","massassi","maul","max","mayagil","mccool","miraluka","mirta","moff","mohc","monkey-lizard","moor","mustafar","mustafarian","naberrie","nadon","nahdar","nal","neimoidia","nelvaanian","nosaurian","obi-wan","offee","omas","oppo","organa","orrin","ors","ortolan","orus","oswaft","p'w'eck","padmé","palpatine","piett","plagueis","plo","qel-droma","quarren","quinlan","raa","raioballo","ranat","rattataki","reach","rebo","ree-yees","rendar","rex","ric","rishi","rune","saffa","saurin","secura","selkath","senesca","shaddaa","shawda","shi'ido","sidious","sikan","sit","sith","skirata","skywalker","solo","soontir","spar","ssi-ruuk","subterrel","sunrider","tagge","talortai","tano","tc-14","terentatek","terrik","tharen","theelin","thrawn","thul","tib","tion","tof","trianii","triclops","tsavong","tyber","tyranus","ulic","utai","vaathkree","vagaari","vebb","vel","verpine","vodran","vong","vuffi","vurk","walon","wampa","wat","wedge","wessell","whaladon","wharl","whill","whiphid","whitesun","wicket","wirutid","wol","wroonian","xappyh","xexto","xizor","y'bith","yaddle","yevetha","yoda","yowza","yuvernian","zolba","zuckuss","zuggs"</string>
+
+
+</resources>
